@@ -1,4 +1,4 @@
-# Recipe Management System
+# About Project
 
 ## Overview
 This project is a web application designed to allow users to manage food recipes. Users can sign up, log in, search for recipes, view detailed recipe information, and add/edit their own recipes.
