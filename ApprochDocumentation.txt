@@ -1,0 +1,46 @@
+Plan and Design Notes for Recipe Management System
+
+1. Project Overview
+	Objective: Create a recipe management system allowing users to add, view, edit, delete, and search for recipes.
+	Features: User authentication, recipe CRUD operations, image upload, and search functionality.
+
+2. Design and Planning
+	2.1 Database Design
+		Tables:
+			users: id, username, password
+			recipes: id, user_id, title, description, ingredients, steps, image_url, created_at
+			Relationships: One-to-many relationship between users and recipes.
+
+	2.2 User Interface
+		Pages:
+			login.php: User login page.
+			signup.php: User registration page.
+			index.php: Displays list of recipes with search functionality.
+			add_recipe.php: Form to add a new recipe.
+			edit_recipe.php: Form to edit an existing recipe.
+			view_recipe.php: Detailed view of a single recipe.
+
+	2.3 Functionality
+		User Authentication: Users must log in to add, edit, or delete recipes.
+		Recipe Management: Users can add, view, edit, and delete their recipes.
+		Image upload functionality for recipes.
+		Search Functionality: Users can search for recipes by title, description and ingredients.
+
+	2.4 Technologies
+		Backend: PHP, PDO for database interactions.
+		Frontend: HTML, CSS, JavaScript.
+		Database: MySQL.
+
+	2.6 Flowchart
+		User Authentication.
+			User logs in or registers.
+			Session is created upon successful login.
+		Recipe Management.
+			User adds a new recipe.
+			User views a list of their recipes.
+			User edits or deletes a recipe.
+			User searches for recipes.
+
+Conclusion:
+By following this structured plan, we ensure that the project is well-organized, covers all required functionalities, and maintains a clean and intuitive user interface. This plan allows for easy scalability and maintenance in the future.
+
